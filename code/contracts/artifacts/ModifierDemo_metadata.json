@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/5_Modifier.sol": "ModifierDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/5_Modifier.sol": {
+			"keccak256": "0xc281646f89b591f579a261542824c0f4615cbeacefe7ef196d71621e4d7f23b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47b162d1c10ae7d3b9b483c033029bbe672c426059504fd8121032cbda052ffa",
+				"dweb:/ipfs/QmdQ4E4fDARoYi6Y9zjHLmxTv5H9XhHB6DBGCH58am3Nyv"
+			]
+		}
+	},
+	"version": 1
+}

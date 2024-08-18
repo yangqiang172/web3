@@ -6,29 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "calculatorInt",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
-						"internalType": "uint128",
+						"indexed": false,
+						"internalType": "string",
 						"name": "",
-						"type": "uint128"
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"name": "FunctionCalled",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "overflow",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "result",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Integer.sol": "Integer"
+			"contracts/5_Fallback.sol": "Callee"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_Integer.sol": {
-			"keccak256": "0x8a12f4f7bfeddf359fcf37002a2717ac5a9535d96747f1d54412f23680c74d3e",
+		"contracts/5_Fallback.sol": {
+			"keccak256": "0x962f23cd295432dd9b9a93f04433e460ed47440ded6066bbe4dd40692fd2064d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://35ed5279fd3f758e96c594364f676a4fed5ac10899f4b9b33c68b9aaed67953a",
-				"dweb:/ipfs/QmXXSfatKQJuuJN27k4C3x4xE7Cp8vgNnWoFVg2WvV34Er"
+				"bzz-raw://ecfddaafb5b3799cdfb52d3687cbd73fccd8aa94335b61eecaebb0e135bfb469",
+				"dweb:/ipfs/QmfUJpcZrY95Q6DYmYT7xortuqqvXHNm4VQGxHdoSd8ocq"
 			]
 		}
 	},

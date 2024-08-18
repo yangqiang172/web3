@@ -10,4 +10,11 @@ contract Integer {
         a = a+1;
         return a;
     }
+
+    /*在计算b时会先将2.5+0.5=3计算出来*/
+    function calculatorInt() public pure returns (uint128) {
+        uint128 a = 1;
+        uint128 b = 2.5 + 0.5 + a;
+        return b;
+    }
 }

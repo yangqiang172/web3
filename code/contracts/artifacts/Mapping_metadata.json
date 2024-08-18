@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "_value",
+						"type": "int256"
+					}
+				],
+				"name": "setMapping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_Mapping.sol": "Mapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_Mapping.sol": {
+			"keccak256": "0x4ca67ed157462be7c4cadf40c3804dfccf2e53dd3f4238656ff11ec98fb6c4b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1bab4a23c0ced0a02e8b857bbf58a65ff0afa44d430e88f77ccf3ec12c15314",
+				"dweb:/ipfs/QmU44gsxGrcUHAKVHxfwCcJKLSfJyZoUE5sb5A4xYfzdgN"
+			]
+		}
+	},
+	"version": 1
+}
